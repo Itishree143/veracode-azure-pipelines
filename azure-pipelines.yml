@@ -5,7 +5,7 @@ pool:
   # Images are defined here.
   # Azure image documentation is located here at https://docs.microsoft.com/en-us/azure/devops/pipelines/process/container-phases
   # Azure documentation to register your own container is located here at https://docs.microsoft.com/en-us/azure/container-registry/
-  vmImage: 'windows-latest'
+  name: Default
 
 steps:
 - task: PowerShell@2
